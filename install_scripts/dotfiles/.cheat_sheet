@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+
+# Cheat Sheet of commands and aliases
+
+bold=$(tput bold)
+normal=$(tput sgr0)
+
+clear 
+echo "${bold}Cheat-sheet${normal}"
+echo ""
+echo "Schedule a job:        ${bold}sbatch myscript${normal}"
+echo "Cancel a job:          ${bold}scancel <jobid>${normal}"
+echo "View your queued jobs: ${bold}mysqueue${normal}"
+echo "View all queues:       ${bold}squeue | less ${normal}"
+echo ""
+echo ""
+echo "Change dir:       ${bold}cd <dir>${normal} or ${bold}<dir>${normal}"
+echo "cd home:          ${bold}cd${normal}       or ${bold}~${normal}"
+echo "Where am I?:      ${bold}pwd${normal} [present working directory]"
+echo ""
+echo "Show (local) processes:    ${bold}psa nameofprocess${normal}"
+echo "Kill (local) processes:    ${bold}kp nameofprocess${normal}"
+echo "Clear screen:              ${bold}c${normal}   or ${bold}clc${normal}"
+echo "Logout:                    ${bold}x${normal}   or ${bold}exit${normal}"
+echo ""
+echo ""
+echo "List content:        ${bold}ls <dir>${normal} or ${bold}ls${normal} or ${bold}ls -la${normal}"
+echo "Delete a file:       ${bold}rm filename${normal}        [!!!!!!!WARNING!!!!!!!]"
+echo "Delete many files:   ${bold}rm <dir>/*.txt${normal}     [!!!!!!!WARNING!!!!!!!]"
+echo "Delete many files:   ${bold}rm -f <dir>/*.txt${normal}  [forcefully = w/o confirmation!]"
+echo "Delete an empty dir: ${bold}rmdir <dir>${normal}        [!!!!!!!WARNING!!!!!!!]"
+echo "Rename/Move a file:  ${bold}mv before after${normal}    [!!!!!!!WARNING!!!!!!!]"
+echo "Copy a file:         ${bold}cp before <dir>/<subdir>/${normal}"
+echo "Create a dir:        ${bold}mkdir <dir>${normal}"
+echo ""
+echo "Re-run last cmd:     ${bold}!!${normal} "
+echo "Re-run last cmd:     ${bold}!ls${normal} [e.g. that started with 'ls']"
+echo "Create empty file:   ${bold}touch myfilename.txt${normal}"
+echo ""
+echo "Read a text file:           ${bold}less myfilename.txt${normal}"
+echo "Edit/create a text file:    ${bold}nano myfilename.txt${normal} [EASY]"
+echo "Edit/create a text file:    ${bold}vim myfilename.txt${normal}  [POWERFUL]"
+echo ""
+echo ""
