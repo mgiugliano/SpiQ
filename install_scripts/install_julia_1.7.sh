@@ -36,7 +36,7 @@ echo "export PATH=$HOME/bin:$PATH" >> ~/.bashrc
 # Add the path to the current session
 export PATH=$HOME/bin:$PATH
 
-echo 'ENV["PYTHON"] = "$HOME/sw/miniconda3/bin/python3"' >> ~/.julia/config/startup.jl
+echo 'ENV["PYTHON"] = "'$HOME'/sw/miniconda3/bin/python3"' >> ~/.julia/config/startup.jl
 echo 'println("Setup successful")' >> ~/.julia/config/startup.jl
 
 

@@ -5,7 +5,7 @@
 # February 21st 2022 - Michele Giugliano (mgiugliano@gmail.com)
 #
 
-if [ -e $HOME/sw/miniconda3/conda ]; then      # If it exists..
+if [ -e $HOME/sw/miniconda3/bin/conda ]; then      # If it exists..
 
     source $HOME/.bashrc.d/aliases.bash          
     conda install numpy scipy matplotlib

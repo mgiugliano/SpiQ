@@ -37,6 +37,7 @@ ln -s $HOME/sw/parallel/bin/parallel $HOME/bin/parallel
 
 # Let's promise we will cite the authors' manuscript in our future papers
 #$HOME/bin/parallel --bibtex
+mkdir -pv $HOME/.parallel
 touch $HOME/.parallel/will-cite
 
 # Add the path to .bashrc
