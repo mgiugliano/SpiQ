@@ -1,5 +1,7 @@
 # prompt.sh
 
+# See also https://bashrcgenerator.com
+
 # February 21st 2022 - Michele Giugliano (mgiugliano@gmail.com)
 
 #   Change Prompt

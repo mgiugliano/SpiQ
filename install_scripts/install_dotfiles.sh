@@ -16,6 +16,7 @@ cp .bash* $HOME/
 cp .mymotd.sh $HOME/
 cp .cheat_sheet $HOME/
 cp .vimrc $HOME/
+cp .nanorc $HOME/
 
 
 
