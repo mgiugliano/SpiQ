@@ -29,19 +29,28 @@ function prompt {
   local iBLUE="\[\033[7;34m\]"
 
 function job_indicator {
+  if command -v squeue &> /dev/null
+  then
     p=$(squeue -l -u $USER | grep PENDING | wc -l)
     r=$(squeue -l -u $USER | grep RUNNING | wc -l)
     #⏰
+    
     if [ "$p" -gt "0" ]; then
-    P=☾
+       P=☾
     else
-    P=''
+       P=''
     fi
+    
     if [ "$r" -gt "0" ]; then
-    R=⭑ 
+       R=⭑ 
     else
-    R=''
+       R=''
     fi
+
+  else
+    P=''
+    R=''
+  fi
 
     tmp=$(echo "$P$R")
     if [ "${#tmp}" -gt "0" ]; then

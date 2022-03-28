@@ -5,6 +5,7 @@
 export CLICOLOR=1
 export CLICOLOR_FORCE=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+export LS_COLORS+=':ow=01;33'
 
 export EDITOR=vim 
 export MANPAGER="less -X"

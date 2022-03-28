@@ -7,16 +7,18 @@
 
 rm -rf $HOME/.bash*
 
-mkdir $HOME/.tmp
-mkdir $HOME/.vim
-mkdir $HOME/.bashrc.d
+mkdir -p $HOME/.tmp
+mkdir -p $HOME/.vim
+mkdir -p $HOME/.bashrc.d
 
-cp .dotfiles/.bashrc.d/*.bash $HOME/.bashrc.d/
-cp .bash* $HOME/
-cp .mymotd.sh $HOME/
-cp .cheat_sheet $HOME/
-cp .vimrc $HOME/
-cp .nanorc $HOME/
+cp dotfiles/.bashrc.d/*.bash $HOME/.bashrc.d/
+
+cp dotfiles/.bash_profile $HOME/
+cp dotfiles/.bashrc $HOME/
+cp dotfiles/.mymotd.sh $HOME/
+cp dotfiles/.cheat_sheet $HOME/
+cp dotfiles/.vimrc $HOME/
+cp dotfiles/.nanorc $HOME/
 
 
 
