@@ -21,7 +21,9 @@ We .....
 ## Authors
 
 - [@mgiugliano](https://www.github.com/mgiugliano)
-
+- [@Amo-127-0-0-1](https://www.github.com/Amo-127-0-0-1)
+- [@jgiorg](https://www.github.com/jgiorg)
+- [@Ale7322](https://www.github.com/Ale7322)
 
 ## Appendix
 
