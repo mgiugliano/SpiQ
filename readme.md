@@ -2,12 +2,12 @@
 
 SπQ is ....
 
-It leverages over ..... 
+It leverages over .....
 
 
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
-<img src="/img/logo.jpg?raw=true" alt="geKo logo" height="200px">
+<img src="/img/logo.png?raw=true" alt="SpQ logo" height="200px">
 
 ## Motivations
 
@@ -31,7 +31,7 @@ We .....
 ...
 
 
-## Operation and features   
+## Operation and features
 
 - SπQ is invoked by
 
@@ -40,7 +40,7 @@ We .....
 
 ## Funding
 
-<img src="/img/EU.png?raw=true" alt="EU logo" height="70px"> <img src="/img/MUR.jpg?raw=true" alt="MUR logo" height="100px"> <img src="/img/PNRR.jpg?raw=true" alt="PNRR logo" height="100px"> 
+<img src="/img/EU.png?raw=true" alt="EU logo" height="70px"> <img src="/img/MUR.jpg?raw=true" alt="MUR logo" height="100px"> <img src="/img/PNRR.jpg?raw=true" alt="PNRR logo" height="100px">
 
 <img src="/img/eBRAINSItaly.jpg?raw=true" alt="eBRAINS-Italy logo" height="100px">
 
